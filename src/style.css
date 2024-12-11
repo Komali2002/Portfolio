@@ -320,7 +320,6 @@ button:focus {
 .home-about-section {
   position: relative;
   padding-bottom: 70px !important;
-  padding-top: 70px !important;
 }
 
 .home-about-description {
@@ -472,7 +471,6 @@ button:focus {
   overflow: hidden !important;
   box-shadow: 0 4px 4px 5px rgba(129, 72, 144, 0.561) !important;
 }
-
 .blog-card {
   padding-top: 50px !important;
   padding-bottom: 50px !important;
@@ -515,13 +513,11 @@ button:focus {
   opacity: 0.8 !important;
   border-radius: 0px !important;
 }
-
 .btn-primary {
   color: #fff !important;
   background-color: #623686 !important;
   border-color: #623686 !important;
 }
-
 .btn-primary:hover {
   color: #fff !important;
   background-color: #6d20c5d7 !important;
@@ -543,6 +539,14 @@ button:focus {
 /* --------- */
 
 .about-section {
+  position: relative !important;
+  padding-top: 150px !important;
+  padding-bottom: 30px !important;
+  background-image: var(--section-background-color) !important;
+  color: white !important;
+}
+
+.skill-section {
   position: relative !important;
   padding-top: 150px !important;
   padding-bottom: 30px !important;

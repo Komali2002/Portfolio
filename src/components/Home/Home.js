@@ -9,7 +9,7 @@ function Home() {
   return (
     <section>
       <Container fluid className="home-section" id="home">
-        <Particle />
+      <Particle />
         <Container className="home-content">
           <Row>
             <Col md={7} className="home-header">
@@ -22,14 +22,12 @@ function Home() {
 
               <h1 className="heading-name">
                 I'M
-                <strong className="main-name"> SOUMYAJIT BEHERA</strong>
+                <strong className="main-name"> CHERUKOORI KOMALI</strong>
               </h1>
-
               <div style={{ padding: 50, textAlign: "left" }}>
                 <Type />
               </div>
             </Col>
-
             <Col md={5} style={{ paddingBottom: 20 }}>
               <img
                 src={homeLogo}
@@ -41,7 +39,7 @@ function Home() {
           </Row>
         </Container>
       </Container>
-      <Home2 />
+      <Home2/>
     </section>
   );
 }
