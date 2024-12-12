@@ -307,7 +307,7 @@ button:focus {
 
 .myAvtar {
   justify-content: center !important;
-  padding-top: 9em !important;
+  padding-top: 5em !important;
 }
 
 @media (max-width: 767px) {
@@ -600,7 +600,13 @@ button:focus {
 @media (max-width: 767px) {
   .about-img {
     padding-top: 0 !important;
+    
   }
+}
+
+.img-fluid{
+  transform: rotateY(200deg);
+  margin-left: 20px;
 }
 /* --------- */
 /* Resume */
