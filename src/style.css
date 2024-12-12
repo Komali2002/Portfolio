@@ -333,6 +333,7 @@ button:focus {
   padding-top: 50px;
   font-size: 1.2em !important;
   text-align: left;
+  margin-left: 50px !important;
 }
 
 .home-about-social {
